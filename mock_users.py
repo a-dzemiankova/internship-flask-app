@@ -1,6 +1,6 @@
 import json
 from random import choice
-from pydantic import BaseModel, EmailStr, ValidationError
+from pydantic import BaseModel, EmailStr
 
 
 class User(BaseModel):

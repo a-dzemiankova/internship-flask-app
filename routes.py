@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify
 from pydantic import ValidationError
 from mock_users import MockUsers
 import settings
